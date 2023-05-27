@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authenticator</title>
+  <link rel="stylesheet" type="text/css" href="mfa-css.css">
+</head>
+<body>
+    <h1>Code Manager</h1>
+  <section>
+
+    <h2>Add the name</h2>
+
+    <form id="addForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <button type="submit">+</button>
+    </form>
+  
+    <h2>All generated codes</h2>
+
+    <button id="timerButton">--:--</button>
+
+    <ul id="mfaList"></ul>
+
+  </section>
+    
+  <script src="mfa-javascript.js"></script>
+</body>
+</html>
